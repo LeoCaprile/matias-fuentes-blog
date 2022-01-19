@@ -1,0 +1,3 @@
+- [x] Crear rutas para obtener posts.
+- [] 
+- [] Hacer deploy a vercel.
