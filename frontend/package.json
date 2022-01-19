@@ -1,0 +1,49 @@
+{
+  "name": "matias-website",
+  "version": "1.0.0",
+  "description": "'Blog created with react'",
+  "main": "none",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoCaprile/matias-fuentes-blog.git"
+  },
+  "keywords": [
+    "blog",
+    "react",
+    "md"
+  ],
+  "author": "Matías Fuentes Cortez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeoCaprile/matias-fuentes-blog/issues"
+  },
+  "homepage": "https://github.com/LeoCaprile/matias-fuentes-blog#readme",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "lint": "eslint --fix",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-markdown": "^8.0.0",
+    "react-router-dom": "^5.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.7",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-react": "^7.28.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.15",
+    "vite": "^2.7.2",
+    "vite-plugin-fonts": "^0.2.2"
+  }
+}
