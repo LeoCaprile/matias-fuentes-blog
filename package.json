@@ -4,16 +4,15 @@
   "description": "",
   "main": "index.js",
   "workspaces": [
-    "frontend",
-    "posts"
+    "packages/*"
   ],
   "scripts": {
     "test": "",
-    "dev:back": "npm run dev --workspace=posts",
-    "dev:front": "npm run dev --workspace=frontend",
-    "build": "npm run dev --workspace=frontend "
+    "dev:back": "npm run dev --workspace=packages/posts",
+    "dev:front": "npm run dev --workspace=packages/frontend",
+    "build": "npm run dev --workspace=packages/frontend "
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }
