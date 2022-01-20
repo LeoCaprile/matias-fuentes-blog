@@ -10,7 +10,7 @@
     "test": "",
     "dev:back": "npm run dev --workspace=packages/posts",
     "dev:front": "npm run dev --workspace=packages/frontend",
-    "build": "npm run dev --workspace=packages/frontend "
+    "build": "npm run build --workspace=packages/frontend "
   },
   "keywords": [],
   "author": "",
