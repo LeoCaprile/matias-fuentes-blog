@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --listen 5050"
+    "dev": "vercel dev --listen 5050"
   },
   "repository": {
     "type": "git",
