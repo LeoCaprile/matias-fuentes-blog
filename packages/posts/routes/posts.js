@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const {getFileBySlug, getPostMetaData, getFiles}  = require('../../lib/mdx');
+const {getFileBySlug, getPostMetaData, getFiles}  = require('../lib/mdx');
 
 router.get('/',async (req,res)=>{
 
